@@ -1,0 +1,116 @@
+
+.img1{
+    width: 15%;
+    height: 200px;
+    min-width: 200px;
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    
+}
+span{
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+}
+.img2{
+    width: 15%;
+    height: 200px;
+    min-width: 200px;
+    position: absolute;
+    top: 280px;
+    left: 250px;
+}
+.img3{
+    width: 15%;
+    height: 200px;
+    min-width: 200px;
+    position: absolute;
+    top: 280px;
+    left: 500px;
+}
+h1{
+    display: inline;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-top: 50px;
+    color: brown;
+    align-items: center;
+    margin-left: 100px;
+
+}
+div{
+    display: block;
+    position: relative;
+    border: 5px solid black;
+    width: 750px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    animation: mymove 5s infinite;
+    background-color: white;
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px brown;}
+  }
+p{
+    position: absolute;
+    top: 210px;
+    font-size: 20px;
+    font-weight: bold;
+    left: 20px;
+}
+h2{
+    font-size: 40px;
+    position: absolute;
+    top: 90px;
+    left: 120px;
+
+}
+.sideBarRight{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 60px;
+    float: right;
+}
+.sideBarleft{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .img2{
+        display: none;
+    }
+    .img1{
+        width: 150px;
+        
+    }
+    .img1{
+        width: ;
+    
+    }
+
+}
+@media only screen and (max-width: 950px) {
+    .img2{
+        display: none;
+    }
+    .img1{
+        width: 50%;
+    }
+    .sideBarRight{
+        display: none;
+    }
+    .sideBarleft{
+        display: none;
+    }
+}
