@@ -15,7 +15,7 @@ var seconds = Math.round(difference / 1000)
 var mainParagraph = document.getElementById("mainPara")
 mainParagraph.innerHTML = days + " &nbsp:&nbsp " + hours + " &nbsp:&nbsp " + minuts + " &nbsp:&nbsp " + seconds;
 var mainParagraph2 = document.getElementById("para3")
-mainParagraph2.innerHTML = 'Days' + "|" + " &nbspHours&nbsp " + "|" + " &nbsp&nbspMinuts &nbsp&nbsp&nbsp" + "|" + " &nbsp&nbspSeconds"
+mainParagraph2.innerHTML = 'Days' + " |" + " &nbspHours&nbsp " + "|" + " &nbsp&nbspMinuts &nbsp&nbsp&nbsp" + "|" + " &nbsp&nbspSeconds"
 
 var paragraph = document.getElementById('para')
 paragraph.innerHTML = "In Bakron Ko Zibba Hona ma " + days + " Din " + weeks + " Hafta " + minuts + " Minuts " + seconds + " seconds Baake Hain"

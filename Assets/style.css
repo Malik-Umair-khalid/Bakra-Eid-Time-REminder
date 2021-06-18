@@ -47,7 +47,7 @@ div{
     display: block;
     position: relative;
     border: 5px solid black;
-    width: 750px;
+    width: 50%;
     height: 500px;
     text-align: center;
     margin: 0 auto;
@@ -86,26 +86,61 @@ h2{
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px){
     .img2{
+        position: static;
+        width: 20px;
+    }
+    .img1{
+        position: static;
+        width: 20px;
+    }
+    .img3{
         display: none;
     }
-    .img1{
-        width: 150px;
-        
+    .sideBarRight, .sideBarleft{
+        display: none;
     }
-    .img1{
-        width: ;
-    
+    div{
+        width: 100%;
     }
-
+    h1{
+        font-size: 40px;
+        margin: 0 auto;
+    }
+    h2{
+        position: static;
+        display: block;
+        font-size: 25px;
+        margin: 0 auto;
+    }
+    span{
+        position: static;
+        display: block;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+   p{
+    position: static;
+    display: block;
+    font-size: 20px;
+    margin: 10px auto;
+   }
+div{
+    padding-top: 20px;
+    height: auto;
 }
-@media only screen and (max-width: 950px) {
+}
+/* @media only screen and (max-width: 1100px) {
     .img2{
         display: none;
     }
     .img1{
         width: 50%;
+    }
+    .img3{
+        width: 50%;
+        left: 50px;
     }
     .sideBarRight{
         display: none;
@@ -113,4 +148,17 @@ h2{
     .sideBarleft{
         display: none;
     }
-}
+    div{
+        width: 100%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    span{
+        font-size: 20px;
+
+    }
+} */
