@@ -59,7 +59,7 @@ div{
     background-color: white;
 }
 @keyframes mymove {
-    50% {box-shadow: 10px 20px 30px brown;}
+    50% {box-shadow: 10px 20px 30px brown inset;}
   }
 p{
     position: absolute;
